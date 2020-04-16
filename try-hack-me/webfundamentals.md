@@ -1,6 +1,6 @@
 # Web Fundamentals Room MiniCTF
 
-This is a great bite-sized room to get more comfortable with how the basics of how the web works. I personally really enjoyed this room. Before you look at the solutions below, be sure that you have attemptedthe challenges yourself. 
+This is a great bite-sized room to get more comfortable with how the basics of how the web works. I personally really enjoyed this room. Before you look at the solutions below, be sure that you have attempted the challenges yourself. 
 
 See the room [here](https://tryhackme.com/room/webfundamentals)
 
