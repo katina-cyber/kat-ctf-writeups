@@ -200,7 +200,7 @@ Here is what we will manipulate the stack to look like with our input to get the
 ```
 HIGH MEMORY ADDRESSES
 ---- TOP ----
--> return address of win that we went through our input
+-> return address of win that we sent through our input
 -> 4 A's to fill up the space of EBP
 -> 24 A's to fill up var_18h
 -- BOTTOM ---
