@@ -263,7 +263,7 @@ HIGH MEMORY ADDRESSES
 ---- TOP ----
 -> arg2
 -> arg1 
--> return address of win that we went through our input
+-> return address of win that we sent through our input
 -> 4 A's to fill up the space of EBP
 -> 24 A's to fill up var_18h
 -- BOTTOM ---
@@ -315,7 +315,7 @@ Close, but not quite.
 
 WAIT. I thought this was supposed to work!!!!!!!! What gives
 
-We actually need some [padding](https://en.wikipedia.org/wiki/Data_structure_alignment) between the return address and the arg1. Since arg1 is a long long int, we will need 4 bytes of padding before we send arg1.
+We actually need some [padding](https://en.wikipedia.org/wiki/Data_structure_alignment) between the return address and arg1. Since arg1 is a long long int, we will need 4 bytes of padding before we send arg1.
 
 Let's add to the exploit.
 
