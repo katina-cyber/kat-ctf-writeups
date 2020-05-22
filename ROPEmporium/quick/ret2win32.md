@@ -33,8 +33,9 @@ Now we need to find the address of ret2win.
 
 ```
 |   sym.ret2win ();
-|           0x08048659      55             push ebp   -> address of ret2win that we will make our new return address in our evil input        ```
- 
+|           0x08048659      55             push ebp   -> address of ret2win that we will make our new return address in our evil input       
+```
+
 Using pwntools we can write our exploit now. 
 
 ```
