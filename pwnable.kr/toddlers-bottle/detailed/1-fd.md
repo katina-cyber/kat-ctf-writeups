@@ -156,7 +156,7 @@ A *file descriptor* is an nonnegative integer that represents an open file in Li
 
 Knowing that the file descriptor 0 allows for keyboard input, and that 4660 is subtracted from the argument we pass to *fd*, what is passed an argument such that the file descriptor passed to the **read** function is 0? 
 
-We can pass the 4660 as an argument to *fd*
+We can pass 4660 as an argument to *fd*
 
 ```
 fd@pwnable:~$ ./fd 4660
