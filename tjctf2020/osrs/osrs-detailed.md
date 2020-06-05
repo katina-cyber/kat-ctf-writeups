@@ -4,21 +4,7 @@ Category: Binary
 
 First Written: 6.2.2020
 
-Last Updated: 6.2.2020 
-
-Introducing a new concept called **Salt Content** - where I talk about how salty this problem made me feel while doing it. 
-
-I've not figured out the specifics of how I determine **salt content** yet, but just know that every problem I do from now on will have some salt content.
-
-Salt Content: Quite Salty
-
-As usual, try this problem on your own first. After a couple of hours, look at this writeup when you're totally stuck. No shame in learning something new!
-
-## Topics Covered
-- Shellcode
-- Printf String Format Vulnerability
-- NX
-- ASLR
+Last Updated: 6.4.2020 
 
 ## Problem Description
 ```
@@ -284,21 +270,6 @@ http://mathforum.org/library/drmath/view/55998.html
 https://aaronbloomfield.github.io/pdr/book/x86-32bit-ccc-chapter.pdf
 
 https://0xrick.github.io/binary-exploitation/bof5/
-
-### Author's thoughts on this problem
-I came really, really close to solving this problem, but didn't quite get it. I tried to write into another segment in the binary and jump to that, but none of the segments are marked as both writeable and executable, so that was out. Many hours were poured into working on this problem, and before I finished the informational bits of the writeup (disregarding the fact that I need to format those links), when I wasn't actively working on the problem, I was thinking about it. It helps to let concepts simmer in your brain for a bit. 
-
-Somedays I don't get to go as hard on pwning as other days, especially when "life gets in the way" as you would put it (there's more to life than just pwning those binaries all day yoyo). I find that it helps to **gain full control over your mind and feelings, as you will then feel a lot more powerful in what you can do.** 
-
-What do I mean by this? I mean that, if you realize that you can control how you feel, and you stop letting so many external forces, such as what happens or what other people think, get in the way of your thoughts, then pwning, or rather, mastering any skill, becomes a heck of a lot easier. It's understandable that certain events can make you feel a certain way, but you have to learn to take control of your wandering thoughts, and focus. When your thoughts are all over the place, doing anything becomes much more daunting and less fun. Gaining control over your thoughts is like when Link finally gets the master sword, or when you finally get the pole vault in Animal Crossing. You feel powerful. 
-
-There is a show on Netflix about *life things* called [The Midnight Gospel](https://en.wikipedia.org/wiki/The_Midnight_Gospel) that I have absolutely been enjoying recently. If you're looking for a show that will make you think about *life things*, then check it out!
-
-For me, a problem does not feel truly complete until I have created a writeup that explains how to solve it. As I write my writeup, I try to think about what would be helpful for a total beginner, or at least, what would have been helpful to my past self when attempting the problem. I also make sure to double check my understanding of certain concepts (lots and lots of Google). Many times you won't know what to look for to solve a problem, and that's okay. Each writeup probably takes at minimum 1 hour, often more. Most writeups don't really explain, they just show you the solution. This is okay, I guess, but imagine taking a math class where nothing was explained to you, the instructor just gave you problems, and gave you the solutions, and then said "go solve these" without any explanation. That would be quite frustrating, so I hope my writeups help to make the topic less intimidating for beginners. 
-
-My writeups aren't perfect. I find flaws in them once I leave them for a couple of days and come back. Please feel free to give me feedback as to what you think is easy to understand, and what I should work on. 
-
-
 
 ### TO-DO:
 - Write about converting a negative number into hex using two's complement concepts, and link it in the appropriate spot
